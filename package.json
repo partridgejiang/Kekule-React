@@ -1,0 +1,38 @@
+{
+  "name": "kekule-react",
+  "version": "0.1.0",
+  "description": "React component wrapper for Kekule.js widgets",
+  "main": "src/kekule.react.js",
+  "author": {
+    "name": "Chen Jiang",
+    "email": "partridge@cpu.edu.cn"
+  },
+  "maintainers": [
+    {
+      "name": "Chen Jiang",
+      "email": "partridge@cpu.edu.cn"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/partridgejiang/Kekule-React/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "kekule",
+    "react",
+    "chemistry",
+    "cheminformatics",
+    "chemoinformatics",
+    "molecule"
+  ],
+
+  "dependencies": {
+    "kekule": "^0.9.10",
+    "react": "^18.2.0"
+  }
+}
+
