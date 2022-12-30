@@ -1,0 +1,30 @@
+.ComposerAndViewerDemo
+{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    min-height: 400px;
+    min-width: 400px;
+}
+
+.ComposerAndViewerDemo .SubWidget
+{
+    flex: 1 1 auto;
+    margin: 0.5em;
+    min-width: 300px;
+    min-height: 200px;
+}
+
+.ComposerAndViewerDemo .SubWidget .K-Chem-Viewer
+{
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+}
+
+@media (min-width: 1024px) {
+    .ComposerAndViewerDemo
+    {
+        flex-direction: row;
+        height: auto;
+    }
+}
