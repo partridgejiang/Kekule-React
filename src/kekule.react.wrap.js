@@ -50,6 +50,18 @@ KekuleReact.Utils = {
 	{
 		return 'on' + eventName.charAt(0).toUpperCase() + eventName.substring(1);
 	},
+	/**
+	 * Wrap a Kekule widget into React component.
+	 * @param {Class} widgetClass
+	 * @param {Hash} options May include fields:
+	 *   {
+	 *     exposeWidgetPropertiesToReactProps: bool, whether each of widget's property maps to a React component's property. If true, setting reactComponent.props.chemObj will modify widget.chemObj.
+	 *     exposedProperties: array,
+	 *     ignoredProperties: array,
+	 *     exposeWidgetEvents: bool, whether reactComponent.props.on[EventName] will be called when Kekule events being invoked in widget
+	 *   }
+	 * @returns {Object} Vue component.
+	 */
 	wrapWidget: function(widgetClass, options)
 	{
 		let globalOptions = Kekule.globalOptions.React.widgetWrapper;
