@@ -30,6 +30,11 @@ ClassEx.extendMethod(Kekule.Widget.BaseWidget, 'dispatchEvent', function($origin
 	return result;
 });
 
+
+ClassEx.extendMethod(Kekule.Widget.BaseWidget, 'getReactComponent', function($origin){
+	return this._reactComponent;
+});
+
 /**
  * Util functions of Kekule-React.
  * @class
