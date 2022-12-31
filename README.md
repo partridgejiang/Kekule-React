@@ -78,7 +78,7 @@ class App extends React.Component {
                     <Components.SpectrumInspector />
                     <Components.ChemObjInserter />
                     <Components.SpectrumObjInserter />
-                    <Components.Composer></Components.Composer>
+                    <Components.Composer />
 		</div>);
 	}
 }
