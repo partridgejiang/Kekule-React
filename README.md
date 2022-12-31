@@ -69,12 +69,19 @@ import { Kekule } from 'kekule';
 import { KekuleReact, Components } from 'kekule-react';
 import 'kekule/theme';
 
-let PeriodicTable = Components.PeriodicTable;
-let Viewer = Components.Viewer;
-let SpectrumInspector = Components.SpectrumInspector;
-let ChemObjInserter = Components.ChemObjInserter;
-let SpectrumObjInserter = Components.SpectrumObjInserter;
-let Composer = Components.Composer;
+class App extends React.Component {		
+	render()
+	{
+		return (<div>
+          <Components.PeriodicTable />
+          <Components.Viewer />
+          <Components.SpectrumInspector />
+          <Components.ChemObjInserter />
+          <Components.SpectrumObjInserter />
+		  <Components.Composer></Components.Composer>
+		</div>);
+	}
+}
 ```
 
 Several util methods are also wrapped in the React component to access the widget:
