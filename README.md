@@ -73,12 +73,12 @@ class App extends React.Component {
 	render()
 	{
 		return (<div>
-          <Components.PeriodicTable />
-          <Components.Viewer />
-          <Components.SpectrumInspector />
-          <Components.ChemObjInserter />
-          <Components.SpectrumObjInserter />
-		  <Components.Composer></Components.Composer>
+                    <Components.PeriodicTable />
+                    <Components.Viewer />
+                    <Components.SpectrumInspector />
+                    <Components.ChemObjInserter />
+                    <Components.SpectrumObjInserter />
+                    <Components.Composer></Components.Composer>
 		</div>);
 	}
 }
