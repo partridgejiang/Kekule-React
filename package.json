@@ -1,6 +1,6 @@
 {
   "name": "kekule-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React component wrapper for Kekule.js widgets",
   "main": "src/kekule.react.js",
   "author": {
@@ -31,7 +31,7 @@
   ],
 
   "dependencies": {
-    "kekule": "^0.9.10",
+    "kekule": "^1.0.0",
     "react": "^18.2.0"
   }
 }
